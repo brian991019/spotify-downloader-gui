@@ -23,7 +23,7 @@ A powerful and user-friendly GUI application that allows you to effortlessly dow
 
 ![image](https://github.com/user-attachments/assets/8b423dce-08ad-4129-9673-3b9459932c08)
 
-![image](https://github.com/user-attachments/assets/a9a5b698-faaf-46a2-bca5-12b9fef1e932)
+![image](https://github.com/user-attachments/assets/e28de832-ccae-44a1-ad44-ddad23f3754a)
 
 > [!CAUTION]
 > This tool is for personal use only. Please respect copyright laws and Spotify's terms of service.

@@ -5,26 +5,25 @@
 
 A powerful and user-friendly GUI application that allows you to effortlessly download your favorite tracks, albums, and playlists directly from Spotify in high quality.
 
+[Direct Download](https://github.com/afkarxyz/spotify-downloader-gui/releases/download/spotify/Spotify.Direct.Downloader.exe)
+
 ## Features
 
 - Download individual tracks, entire albums, or complete playlists
-- Sleek and intuitive PyQt6-based graphical user interface
+- The ability to select multiple tracks using Ctrl+Click or Shift+Click
 - Multiple downloader options (SpotifyDown and Lucida)
 - Real-time download progress tracking
-- Customizable output directory
 - Download history with sorting options
 - Integrated Lucida Stats viewer
 - Pause, resume, and stop download functionality
 
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/da599218-fd50-4fe9-a734-a8bfef4e3fac)
+![image](https://github.com/user-attachments/assets/93c1bd5e-39df-452d-ad23-cf0f5c8abc89)
 
-![image](https://github.com/user-attachments/assets/ba7ac3d5-e5d4-4518-8142-a28cde9a1d89)
+![image](https://github.com/user-attachments/assets/8b423dce-08ad-4129-9673-3b9459932c08)
 
-![image](https://github.com/user-attachments/assets/6715082b-e8d4-4f8f-abb2-8058414f5052)
-
-![image](https://github.com/user-attachments/assets/b761b0aa-9e64-431d-a9fc-24977345e1be)
+![image](https://github.com/user-attachments/assets/a9a5b698-faaf-46a2-bca5-12b9fef1e932)
 
 > [!CAUTION]
 > This tool is for personal use only. Please respect copyright laws and Spotify's terms of service.

